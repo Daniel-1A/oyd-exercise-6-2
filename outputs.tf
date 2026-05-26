@@ -1,5 +1,5 @@
-output "alb_dns_name" {
-  description = "The public DNS name of the Application Load Balancer — use this to send HTTP requests to the API."
+ï»¿output "alb_dns_name" {
+  description = "The public DNS name of the Application Load Balancer - use this to send HTTP requests to the API."
   value       = aws_lb.main.dns_name
 }
 
